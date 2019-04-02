@@ -1,0 +1,37 @@
+{
+  "name": "tree-blog",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jquery": "^3.3.1",
+    "morgan": "~1.9.0",
+    "nodemon": "^1.18.10",
+    "popper.js": "^1.14.7",
+    "request": "^2.88.0"
+  },
+  "description": "example",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taylordavids1021/Tree-blog.git"
+  },
+  "keywords": [
+    "tree-blog"
+  ],
+  "author": "Taylor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taylordavids1021/Tree-blog/issues"
+  },
+  "homepage": "https://github.com/taylordavids1021/Tree-blog#readme"
+}
