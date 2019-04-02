@@ -2,20 +2,33 @@
 <html>
   <head>
     <!-- google font -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Playfair+Display" rel="stylesheet">
     <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/css/main.css'/>
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p><%= title %></p>
-    <h2>home page</h2>
+    <!-- <h1><%= title %></h1> -->
+      <!-- <p><%= title %></p> -->
+      <ul>
+          <div>
+            <li>home</li>
+            <li>blog archive</li>
+            <li>sign in</li>
+        </div>
+          <div class="sign-in">
+            <li>new post</li>
+            <li>edit post</li>
+          </div>
+        </ul>
+    <h1>home page</h1>
     <h3>Tree's are poems</h3>
     <h3>the earth writes</h3>
     <h3>upon the sky</h3>
     <div class="blog-grid">
       <div>
         <img class="blog-image" src="https://cdn.pixabay.com/photo/2018/01/21/19/57/tree-3097419_960_720.jpg">
+        <!-- <img id="blog-image" src="img_pulpit.jpg" alt=""> -->
+        <!-- <p id="blog-image"></p> -->
         <p>connection</p>
       </div>
       <div>
@@ -27,6 +40,8 @@
         <p>Guide</p>
       </div>
     </div>
+    <footer>Designed by Taylor Davids ©-2019</footer>
+    <script src="/routes/index.js"></script>
   </body>
 </html>
 <!--  this is where you write your html -->

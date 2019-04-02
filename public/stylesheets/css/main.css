@@ -1,0 +1,78 @@
+body {
+  background: linear-gradient(rgba(106, 142, 35, 0.733), rgba(48, 141, 48, 0.705)), url(https://cdn.pixabay.com/photo/2018/06/09/17/25/trees-3464777_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  color: aliceblue;
+  font-family: 'Playfair Display', serif; }
+
+p {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: 'Nunito', sans-serif; }
+
+h1 {
+  font-size: 6.5rem;
+  text-align: center;
+  text-transform: uppercase; }
+
+h2 {
+  text-transform: uppercase; }
+
+h3 {
+  display: inline;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  padding: 10rem; }
+
+a {
+  color: #00B7FF; }
+
+ul li {
+  display: inline;
+  text-decoration: none;
+  text-transform: uppercase; }
+
+li {
+  padding: 3rem;
+  letter-spacing: 0.2rem; }
+
+li:hover {
+  font-size: 1.1rem;
+  text-decoration: underline; }
+
+footer {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  background: linear-gradient(rgba(70, 46, 46, 0.438), #505031); }
+
+.blog-grid {
+  display: grid;
+  padding: 2rem;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, auto);
+  /* width: 71.564rem; */
+  margin: auto; }
+
+.blog-image {
+  width: 100%;
+  height: 30rem; }
+
+.sign-in {
+  margin-left: 30rem; }
+
+ul {
+  display: grid;
+  background: linear-gradient(rgba(70, 46, 46, 0.438), #505031);
+  grid-template-columns: repeat(2, 1fr);
+  padding: 2rem;
+  margin: auto;
+  font-family: 'Nunito', sans-serif; }
+
+/*# sourceMappingURL=main.css.map */

@@ -16,6 +16,11 @@ var data = {
 res.render('index', data);
 });
 
+var x = 'image'
+
+function image() {
+  var x = document.getElementById("blog-image").src;
+}
 // module.exports = router;
 // This is our index
 
