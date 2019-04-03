@@ -22,12 +22,11 @@ h2 {
   text-transform: uppercase; }
 
 h3 {
-  display: inline;
   font-weight: bold;
   font-family: 'Playfair Display', serif;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
-  padding: 10rem; }
+  text-align: center; }
 
 a {
   color: #00B7FF; }
@@ -38,11 +37,11 @@ ul li {
   text-transform: uppercase; }
 
 li {
-  padding: 3rem;
+  padding: 1rem;
+  font-size: 1.3rem;
   letter-spacing: 0.2rem; }
 
 li:hover {
-  font-size: 1.1rem;
   text-decoration: underline; }
 
 footer {

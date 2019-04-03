@@ -18,6 +18,8 @@ resquest({
             posts: Post,
             message: 'successfully deleted'
           };
-          res.rendirect('..');
+          res.redirect('..');
     });
 });
+
+module.exports = router;

@@ -10,6 +10,7 @@ steps :
  npm install -g json-server --save
  touch db.json
  npm install 
+ DEBUG=tree-blog:* npm start
  npm start
  new terminal
  cd tree-blog
