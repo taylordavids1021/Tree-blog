@@ -1,7 +1,69 @@
 {
-    "post": [{
-        "id": "1",
-        "autho": "name",
-        "description": "name"
-    }]
+    "posts": [
+        {
+        "id": 1,
+        "date": "Today",
+        "title": "Tree-blog",
+        "header": "Trees are poem",
+        "image": "https://cdn.pixabay.com/photo/2018/01/21/19/57/tree-3097419_960_720.jpg",
+        "description": "A place to draw from an essential part of growth
+                        My beginnings that shaped and nurtured the future me
+                        When my world feels shaky as if my roots are being torn away
+                        And loved ones begin to depart
+                        I have only to reflect on these golden memories that we call yesterday
+                        The smoothness of a babys skin
+                        A wrinkled smile that lights up the room
+                        Words of wisdom suggested with love
+                        Sad occasions where prayers are mingled with tears
+                        Happy holidays where love and laughter and good food abound
+                        Hands joined in prayer connecting with one another and with God
+                        And then I know that my roots are secure
+                        For as a root draws water from the soil I too can draw strength from that innermost part of my private self
+                        Knowing that my roots are not gone But are tenderly and lovingly multiplying 
+                        Sending out new growth in the never-ending scheme of life Which has perfect order",
+        "quote": "connection",
+        "author": "Taylor Davids"
+        },
+        {
+        "id": 2,
+        "date": "Yesterday",
+        "title": "Tree-blog",
+        "header": "the earth writes",
+        "image": "https://cdn.pixabay.com/photo/2016/11/03/19/30/autumn-1795950_960_720.jpg",
+        "description": "string",
+        "quote": "Beauty",
+        "author": "Taylor Davids"
+        },
+        {
+        "id": 3,
+        "date": "Last week",
+        "title": "Tree-blog",
+        "header": "upon the sky",
+        "image": "https://cdn.pixabay.com/photo/2016/02/19/10/35/nature-1209302_960_720.jpg",
+        "description": "string",
+        "quote": "Guidance",
+        "author": "Taylor Davids"
+        }
+    ],
+    
+    "users": [
+        {
+            "id": "1",
+            "username": "taytay",
+            "email": "taylor@gmail.com",
+            "password": "taytay"
+        },
+        {
+            "id": "2",
+            "username": "tender",
+            "email": "tabilekhume17@gmail.com",
+            "password": "takeahike"
+        },
+        {
+            "id": "3",
+            "username": "Cardi",
+            "email": "cardi@gmail.com",
+            "password": "grrrr"
+        }
+    ]
 }

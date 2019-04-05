@@ -1,10 +1,20 @@
+iframe {
+  margin: auto;
+  padding: 2rem; }
+
+html {
+  height: 100%; }
+
 body {
   background: linear-gradient(rgba(106, 142, 35, 0.733), rgba(48, 141, 48, 0.705)), url(https://cdn.pixabay.com/photo/2018/06/09/17/25/trees-3464777_960_720.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  color: aliceblue;
-  font-family: 'Playfair Display', serif; }
+  color: aliceblue; }
+
+nav {
+  width: 100%;
+  margin: auto; }
 
 p {
   font-weight: bold;
@@ -14,9 +24,10 @@ p {
   font-family: 'Nunito', sans-serif; }
 
 h1 {
-  font-size: 6.5rem;
+  font-size: 4rem;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif; }
 
 h2 {
   text-transform: uppercase; }
@@ -45,19 +56,14 @@ li:hover {
   text-decoration: underline; }
 
 footer {
-  padding: 1rem;
+  padding: 1rem 0;
   font-size: 1.5rem;
   font-family: 'Nunito', sans-serif;
   text-align: center;
-  background: linear-gradient(rgba(70, 46, 46, 0.438), #505031); }
-
-.blog-grid {
-  display: grid;
-  padding: 2rem;
-  grid-gap: 1rem;
-  grid-template-columns: repeat(3, auto);
-  /* width: 71.564rem; */
-  margin: auto; }
+  background: linear-gradient(rgba(70, 46, 46, 0.438), #505031);
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
 
 .blog-image {
   width: 100%;
@@ -66,6 +72,11 @@ footer {
 .sign-in {
   margin-left: 30rem; }
 
+#title {
+  position: relative;
+  z-index: 2;
+  margin-top: 0; }
+
 ul {
   display: grid;
   background: linear-gradient(rgba(70, 46, 46, 0.438), #505031);
@@ -73,5 +84,12 @@ ul {
   padding: 2rem;
   margin: auto;
   font-family: 'Nunito', sans-serif; }
+
+.blog-grid {
+  display: grid;
+  padding: 2rem;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, auto);
+  margin: auto; }
 
 /*# sourceMappingURL=main.css.map */

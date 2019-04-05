@@ -1,17 +1,17 @@
 // style extentions //
 
-.blog-grid {
-    display: grid;
-    padding: 2rem;
-    grid-gap: 1rem;
-    grid-template-columns: repeat(3, auto);
-    /* width: 71.564rem; */
-    margin: auto;
-  }
-  .blog-image {
-    width: 100%;
-    height: 30rem;
-  }
-  .sign-in{
-      margin-left: 30rem;
-  }
+// blog images size
+.blog-image {
+  width: 100%;
+  height: 30rem;
+}
+// nav bar
+.sign-in{
+    margin-left: 30rem;
+}
+// heading
+#title {
+  position: relative;
+  z-index: 2;
+  margin-top: 0;
+}

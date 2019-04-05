@@ -13,36 +13,24 @@
         <div>
           <li>home</li>
           <li>blog archive</li>
-          <!-- <li >sign in</li> -->
         </div>
         <div class="sign-in">
           <li>log in</li>
           <li>sign in</li>
           <li>new post</li>
-          <!-- <li>edit post</li> -->
         </div>
       </ul>
     </nav>
-    <h1><%= title %></h1>
+    <h1 id="title"><%= title %></h1>
     <div class="blog-grid">
+      <% blog.posts.forEach(function(item){ %>
       <div>
-        <h3>Tree's are poems</h3>
-        <!-- -->
-        <img class="blog-image" src="https://cdn.pixabay.com/photo/2018/01/21/19/57/tree-3097419_960_720.jpg">
-        <!-- <img id="blog-image" src="img_pulpit.jpg" alt=""> -->
-        <!-- <p id="blog-image"></p> -->
-        <p>connection</p>
+        <h3><%= item.header %></h3>
+        <img class="blog-image" src="<%= item.image %>">
+        <p></p>
+        <p><%= item.quote %></p>
       </div>
-      <div>
-        <h3>the earth writes</h3>
-        <img  class="blog-image" src="https://cdn.pixabay.com/photo/2016/11/03/19/30/autumn-1795950_960_720.jpg">
-        <p>Beauty</p>
-      </div>
-      <div>
-        <h3>upon the sky</h3>
-        <img class="blog-image" src="https://cdn.pixabay.com/photo/2016/02/19/10/35/nature-1209302_960_720.jpg">
-        <p>Guidance</p>
-      </div>
+      <% }); %>
     </div>
     <footer>Designed by Taylor Davids ©-2019</footer>
     <!-- <script src="/routes/index.js"></script> -->

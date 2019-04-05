@@ -1,9 +1,9 @@
-//  create //
+//  ********************** create //
 
 var express = require('express');
 var router = express.Router();
-var Posts = require('../db.json');
-var request = require(request);
+var Posts = require('../db.json').users;
+var request = require('request');
 
 // Get create page
 
@@ -15,7 +15,7 @@ router.get('/',function(req,res,next){
 
 //  post a create request
 
-router.post('/', function(req,res,nect){
+router.post('/', function(req,res,next){
     var posts = Posts.posts;
     // get the id of the last post
     var id = Posts[Posts.length-1].id;
@@ -27,7 +27,7 @@ router.post('/', function(req,res,nect){
     var newDate = new Date();
 
     // declearing date formate
-    var date = '${newDate.getDate()}/${newDate.getMonth()}/${newDate.getFullYear}';
+    var date = '${newDate.getDate()}/${newDate.getMonth()}/${newDate.getFullYear()}';
     
     // get content/description
     var content = req.body.content;
@@ -41,20 +41,20 @@ router.post('/', function(req,res,nect){
     description = text.charAt(1);
 
     // Gets the character or char from the string
-    for(var i = 2; i<200; i ++){
+    for(var i = 2; i < 200; i ++){
         description += text.charAt(i);
     }
 
     //  post request  
     request({
-        url:'localhost:3000',
+        url:'localhost:8080',
         method: Posts ,
         form: {
             id: id,
             date: date,
             title: req.body.title,
             image: req.body.image,
-            description: description+'...</p>',
+            description: description + '...</p>',
             content: content,
             author: req.app.locals.user,
         },
